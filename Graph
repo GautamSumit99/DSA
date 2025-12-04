@@ -1,0 +1,10 @@
+Bipartite Graph(undirected graph):-
+  A graph is a bipartite graph, if we can create two different sets of nodes such that no two nodes from same set have a edge between them.
+                                            OR
+  A graph is bipartite if we can color the entire graph with two colors such that no to adjacent nodes have same color.
+
+  By definition we can say that:
+    - A linear graph is bipartite naturally.
+    - A cyclic graph is bipartite if it has even length cycle.
+
+    Odd length cycle graph is - non bipartite in nature.
