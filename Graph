@@ -8,3 +8,10 @@ Bipartite Graph(undirected graph):-
     - A cyclic graph is bipartite if it has even length cycle.
 
     Odd length cycle graph is - non bipartite in nature.
+
+
+
+  SAFE NODE:-
+  anyone who is part of cycle is not a safe node.
+  anyone who is leading to cycle is not a safe node.
+  REST all are safe nodes.
