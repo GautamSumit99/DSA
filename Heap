@@ -1,5 +1,6 @@
 1. Heap is represented in an array.
   For an index i inside a heap. It's children are at 2*i+1 and 2*i+2.
+  For an index i it's parent is - Math.ceil(i/2) -1.
 
   If a heap has N nodes. 
     All leaf nodes lie in index [N/2 --- N-1]
